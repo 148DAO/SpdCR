@@ -1,0 +1,301 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/bf46822860.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background: linear-gradient(rgb(255, 245, 203), rgb(220, 247, 255), rgb(255, 229, 229));
+            }
+            .Nav{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                margin-top: -7px;
+                margin-left: -5px;
+                width: 100%;
+                /* text-align: center; */
+                border-bottom: 2px solid whitesmoke;
+                position: fixed;
+                background-color: white;
+            }
+            .Contact{
+
+            }
+            .ContactCol{
+                width: 20%;
+                text-align: center;
+                height: 30px;
+                width: 30px;
+            }
+            .Contact:hover{
+                background-color: whitesmoke;
+                border-radius: 10px;
+            }
+            .Sample{
+
+            }
+            .SampleCol{
+                width: 20%;
+                text-align: center;
+            }
+            .Sample:hover{
+                background-color: whitesmoke;
+                border-radius: 10px;
+            }
+            .Logo{
+                height: 60px;
+                width: 170px;
+                
+            }
+            .LogoCol{
+                width: 20%;
+                text-align: center;
+            }
+            .Logo:hover{
+                background-color: whitesmoke;
+                border-radius: 10px;
+            }
+            .MapNav{
+
+            }
+            .MapNavCol{
+                width: 20%;
+                text-align: center;
+            }
+            .MapNav:hover{
+                background-color: whitesmoke;
+                border-radius: 10px;
+            }
+            .User{
+                height: 40px;
+                width: 40px;
+                margin-top: 5px;
+                /* margin-right: -200px; */
+            }
+            .UserCol{
+                margin-right: 60px;
+                width: 20%;
+                width: 30px;
+                text-align: right;
+            }
+            .Nav2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                color: rgb(56, 56, 56);
+                /* margin-top: -15px; */
+                width: 100%;
+                /* text-align: center; */
+                border-bottom: 2px solid whitesmoke;
+                position: fixed;
+                text-align: center;
+                height: 70px;
+                margin-top: -11px;
+                background-color: white;
+            }
+
+            .Help{
+                width: 25%;
+            }
+            .HC{
+
+            }
+            .SearchCol{
+                width: 50%;
+            }
+            .SearchWrapper{
+                width:400px;
+                height:40px;
+                position:relative;
+                margin-right: 50px;
+            }
+            .SearchBar{
+                height: 35px;
+                width: 300px;
+                border-radius: 30px;
+                box-shadow: 10px 10px 20px 30px solid black;
+                border: 1px solid rgb(0, 0, 0);
+                /* border-color: solid rgb(5, 5, 5); */
+            }
+            .SearchIcon{
+                background-color: transparent;
+                border-color:transparent;
+                margin-right: 50px;
+                top:0;
+                right:0;
+                width:37px;
+                height:37px;
+                position: absolute;
+            }
+            .RentingOut{
+                width: 25%;
+            }
+            .ROAC{
+
+            }
+            ::placeholder{
+                padding: 10px;
+            }
+            .SecCar{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                width: 100%;
+            }
+            .CarRow1{
+                width: 100%;
+            }
+            .Car1{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .Car2{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .Car3{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .CarRow2{
+                width: 100%;
+                margin-top: 20px;
+            }              
+            .Car4{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .Car5{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+            .Car6{
+                width: 33%;
+                height: 265px;
+                width: 425px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+        </style>
+        <title>SpdCR</title>
+    </head>
+    <body>
+        <table class="Nav">
+            <center><tr height = 80px>
+                <center><td class="LogoCol">
+                    <img src = "SpdCRFinalPic.png" class="Logo">
+                </td></center>
+                <center><td class="ContactCol">
+                    <p class="Contact">Contact</p>
+                </td></center>
+                <center><td class="SampleCol">
+                    <p class="Sample">Samples</p>
+                </td></center>
+                <center><td class="MapNavCol">
+                    <p class="MapNav">Map</p>
+                </td></center>
+                <center><td class="UserCol">
+                    <img src="UserTransparent3.png" class="User">
+                </td></center>
+            </tr></center>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table class="Nav2">
+            <tr>
+                <td class="Help">
+                    <p class="HC">Help Center</p>
+                </td>
+                <td class="SearchCol">
+                    <center><div class="SearchWrapper">
+                        <input class="SearchBar" type="text" name="Search" placeholder="Find a Car or Cycle to Rent...">
+                        <button class="SearchIcon"><i class="fa-solid fa-magnifying-glass"></i></button> 
+                    </div></center>
+                    <!-- <input class = "SearchBar" type="text" placeholder="Search for a Car..." name="search"> -->
+                    <!-- <img class="SearchIcon" src="Search.jpeg"> -->
+                </td>
+                <td class="RentingOut">
+                    <p class="ROAC">Rent Out a Car</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <table class="SecCar">
+            <tr class="CarRow1">
+                <td align = center>
+                    <img src="BmwCar4.jpg" class="Car1">
+                    Location: Trumbull, CT
+                    <br>
+                    Brand and Version: BMW i7
+                    <br>
+                    <b>$23,000</b>
+                </td>
+                <td align = center>
+                    <img src="KiaSUV2.jpg" class="Car2">
+                    Location: Seattle, Wsh
+                    <br>
+                    Brand and Version: Kia SUV
+                    <br>
+                    <b>$25,000</b>
+                </td>
+                <td align = center>
+                    <img src="TeslaCar3.avif" class="Car3">
+                    Location: Santa Monica, CA
+                    <br>
+                    Brand and Version: Tesla Model 5
+                    <br>
+                    <b>$37,000</b>
+                </td>
+            </tr>
+            <tr height=20px></tr>
+            <tr class="CarRow2">    
+                <td align = center>
+                    <img src="ToyotaCar2.jpg" class="Car4">
+                    Location: Montpelier, VT
+                    <br>
+                    Brand and Version: Hundai SUV
+                    <br>
+                    <b>$20,000</b>
+                </td>
+                <td align = center>
+                    <img src="JeepCar.jpg" class="Car5">
+                    Location: Orlando, FL
+                    <br>
+                    Brand and Version: Toyota Jeep
+                    <br>
+                    <b>$28,000</b>
+                </td>
+                <td align = center>
+                    <img src="SportsCarNV.png" class="Car6">
+                    Location: Los Vegas, NV
+                    <br>
+                    Brand and Version: Acura NSX
+                    <br>
+                    <b>$50,000</b>
+                </td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
